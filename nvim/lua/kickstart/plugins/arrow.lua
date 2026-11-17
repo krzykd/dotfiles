@@ -1,0 +1,57 @@
+return {
+
+	-- 'otavioschwanck/arrow.nvim',
+	-- version = '6e0f726f55f99332dd726a53effd6813786b6d49', -- 2025.03.31
+	-- keys = {                                             -- lazy load on keys
+	-- 	{ ";" },
+	-- 	{ "m" },
+	-- },
+	-- opts = {
+	-- 	always_show_path = true,
+	-- 	buffer_leader_key = 'm', -- Per Buffer Mappings
+	-- 	leader_key = ';',      -- Recommended to be a single key
+	-- 	show_icons = true,
+	-- 	per_buffer_config = {
+	-- 		lines = 8,              -- Number of lines showed on preview.
+	-- 		sort_automatically = true, -- Auto sort buffer marks.
+	-- 		satellite = {           -- default to nil, display arrow index in scrollbar at every update
+	-- 			enable = false,
+	-- 			overlap = true,
+	-- 			priority = 1000,
+	-- 		},
+	-- 	},
+	-- 	mappings = {
+	-- 		next_item = 'n',
+	-- 		prev_item = 'p',
+	-- 	},
+	-- },
+
+	-- {
+	-- 	"francescarpi/buffon.nvim",
+	-- 	commit = 'ac768945a4f1948f26a297cd4a5361de88b5c02f',
+	-- 	---@type BuffonConfig
+	-- 	opts = {
+	-- 		cyclic_navigation = true,
+	-- 		open = {
+	-- 			default_position = "bottom_right"
+	-- 		},
+	-- 		keybindings = {
+	-- 			goto_next_buffer = "",
+	-- 			goto_previous_buffer = "",
+	-- 			move_buffer_up = "",
+	-- 			move_buffer_down = "",
+	-- 			move_buffer_top = "",
+	-- 			move_buffer_bottom = "",
+	-- 			close_buffers_below = "", -- disable, so we can use keymap in toggle_buffon_window
+	-- 			toggle_buffon_window = "<buffonleader>b",
+	-- 			--- Toggle window position allows moving the main window position
+	-- 			--- between top-right and bottom-right positions
+	-- 			toggle_buffon_window_position = "<buffonleader>n",
+	-- 		}
+	-- 	},
+	-- 	dependencies = {
+	-- 		"nvim-tree/nvim-web-devicons",
+	-- 		-- "nvim-lua/plenary.nvim", -- archived - 2026-06-30, used only for logging?
+	-- 	},
+	-- },
+}
